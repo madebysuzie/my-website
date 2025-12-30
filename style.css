@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: white;
+    font-family: "Times New Roman", Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+}
+
+.link-container a {
+    color: black;
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 24px;
+}
+
+.link-container a:hover {
+    color: gray;
+}
